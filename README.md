@@ -1,6 +1,6 @@
 # Kodluyoruz-Veri-Yap-lar-ve-Algoritmalar
 
-İnsertion Sort Projesi
+##İnsertion Sort Projesi
 https://github.com/tahirpinarli
 
 Proje 1
