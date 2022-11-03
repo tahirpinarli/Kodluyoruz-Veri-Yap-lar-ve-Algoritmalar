@@ -13,7 +13,7 @@ Proje 1
 
 [7,3,5,8,2,9,4,15,6] dizisinin Insertion Sort’a göre ilk 4 adımını yazınız.
 
-1.)
+
 1.)	[22,27,16,2,18,6]  Önce ilk terime bakılır
 2.)	[22,27,16,2,18,6]  Daha sonra ikinci terim ile ilk terim kıyaslanır.
 3.)	[16,27,22,2,18,6]  Sonrasında üçüncü terime bakılır ve 3 terim birbirleri ile kıyaslanır.
