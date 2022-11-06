@@ -1,0 +1,12 @@
+A. [16, 21, 11, 8, 12, 22]
+** Yukarı verilen dizinin sort türüne göre aşamalarını ve Big-O gösterimini yazınız.
+1-) [16, 21, 11] - [8, 12, 22] --> Önce liste iki gruba ayrılır 
+2-) [16] - [21, 11] - [8] - [12, 22] --> Daha sonra ikiye ayrılan listeler tekrar ikiye ayrılır ama liste eleman sayısı tek haneli olduğu için eşit sayıda elemanlara ayrılmaz bu yüzden soldaki elemanlar yalnız bırakılır
+3-) [16] - [21] - [11] - [8] - [12] - [22]--> listeler tek eleman kalıncaya ayrılmaya devam eder  
+4-) [16, 21] - [11] - [8, 12] - [22] --> Tek eleman kaldıktan sonra küçük küçükten büyüğe sıralanarak tekrar bir araya gelmeye başlar.  
+5-) [11, 16, 22] - [8, 12, 22] --> listeler bu hale geldikten sonra birinci listenin birinci elemanı ile ikinci listenin ikinci elemanı kıyaslanır ve diğer elemanlar için de böyle devam eder
+6-) [8, 11, 16, 18, 21, 22] --> En son sıralanmış şekil
+
+
+
+- Merge sort algoritmasında Big O Notion O(n*logn) olarak bulunur.
